@@ -1,0 +1,23 @@
+.grafika {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.hatter {
+    background-image: linear-gradient(to bottom right, #3057D3, #73aad1);
+}
+
+.navi {
+    position: absolute;
+    top: 0;
+    background-color: black;
+    opacity: .7;
+}
+
+.logo {
+    width: 70px;
+}
+
+.logotype {
+    width: 300px;
+}

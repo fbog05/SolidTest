@@ -1,0 +1,14 @@
+.navi {
+    position: absolute;
+    top: 0;
+    background-color: black;
+    opacity: .7;
+}
+
+.logo {
+    width: 70px;
+}
+
+.logotype {
+    width: 300px;
+}

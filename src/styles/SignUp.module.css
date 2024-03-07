@@ -1,0 +1,55 @@
+.hatter {
+    background-image: linear-gradient(to bottom right, #3057D3, #73aad1);
+}
+
+.navi {
+    position: absolute;
+    top: 0;
+    background-color: black;
+    opacity: .7;
+}
+
+.logo {
+    width: 70px;
+}
+
+.logotype {
+    width: 300px;
+}
+
+.form {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.info {
+    width: 12px;
+}
+
+.infoicon {
+    position: relative;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.infoicon .infotext {
+    visibility: hidden;
+    width: 300px;
+    background-color: #f9f9f9;
+    color: #3057D3;
+    text-align: center;
+    border-radius: 6px;
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.infoicon:hover .infotext {
+    visibility: visible;
+    opacity: 1;
+}
